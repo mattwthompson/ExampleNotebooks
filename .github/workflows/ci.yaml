@@ -60,6 +60,7 @@ jobs:
       run: |
         micromamba info
         micromamba list
+        pip list
 
     - name: Run example notebooks
       run: |
